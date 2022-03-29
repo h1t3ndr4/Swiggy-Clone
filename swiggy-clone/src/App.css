@@ -6,7 +6,15 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+.icons{
+  width: 16px;
+  height: 16px;
+  transform: 0.5s scale(1.2);
+}
 .icons:hover{
   color: orange;
+}
+
+.logo:hover{
+    transform: scale(1.25);
 }

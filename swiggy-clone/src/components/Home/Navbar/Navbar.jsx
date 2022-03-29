@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSearch,
+  faPercent,
+  faLifeRing,
+  faCartShopping,
+  faUser
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 document.title = `Order food online from India's best food delivery service. Order from restaurants near you`;
@@ -7,8 +13,7 @@ document.title = `Order food online from India's best food delivery service. Ord
 const Main = styled.div`
   width: 100%;
   height: 80px;
-  border: 1px solid black;
-  padding: 0.5% 6%;
+  padding: 0.5% 10%;
   box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
   postion: fixed;
   top: 0;
@@ -18,43 +23,43 @@ const Main = styled.div`
 
 const FlexContainer = styled.div`
   display: flex;
-  border: 1px solid blue;
   justify-content: space-between;
   alignitems: center;
   height: 100%;
 `;
 
 const Div1 = styled.div`
-  width: 25%;
+  width: 13%;
   display: flex;
-  border: 1px solid red;
   justify-content: space-between;
-  align-Items: center;
+  align-items: center;
   font-size: 1rem;
-  
-  h4 {font-size: calc(0.25em + 1vw);}
-  h4:hover{
+
+  h4 {
+    font-size: calc(0.25em + 1vw);
+  }
+  h4:hover {
     color: orange;
   }
 `;
 
 const Div2 = styled.div`
-  width: 53%;
+  width: 60%;
   display: flex;
-  border: 1px solid red;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;
 
 const Icon = styled.img`
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.8s;
+
 `;
 
 const Items = styled.div`
-  width: 17%;
+  width: 12%;
   height: 100%;
-  border: 1px solid teal;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -65,7 +70,7 @@ const Items = styled.div`
     font-weight: 600;
   }
   span:hover {
-      color: orange;
+    color: orange;
   }
 `;
 
@@ -74,7 +79,7 @@ export const NavBar = () => {
     <Main>
       <FlexContainer>
         <Div1>
-          <Icon src="https://cdn.iconscout.com/icon/free/png-64/swiggy-1613371-1369418.png" />
+          <Icon className = "logo" src="https://cdn.iconscout.com/icon/free/png-64/swiggy-1613371-1369418.png" />
           <h4>other</h4>
         </Div1>
 
@@ -84,20 +89,20 @@ export const NavBar = () => {
             <span>Search</span>
           </Items>
           <Items>
-            <FontAwesomeIcon className="icons" icon={faSearch} size="lg" />
-            <span>Search</span>
+            <FontAwesomeIcon className="icons" icon={faPercent} size="lg" />
+            <span>Offers</span>
           </Items>
           <Items>
-            <FontAwesomeIcon className="icons" icon={faSearch} size="lg" />
-            <span>Search</span>
+          <FontAwesomeIcon className="icons" icon={faLifeRing} size="lg" />
+            <span>Help</span>
           </Items>
           <Items>
-            <FontAwesomeIcon className="icons" icon={faSearch} size="lg" />
-            <span>Search</span>
+            <FontAwesomeIcon className="icons" icon={faUser} size="lg" />
+            <span>Premkumar</span>
           </Items>
           <Items>
-            <FontAwesomeIcon className="icons" icon={faSearch} size="lg" />
-            <span>Search</span>
+            <FontAwesomeIcon className="icons" icon={faCartShopping} size="lg" />
+            <span>Cart</span>
           </Items>
         </Div2>
       </FlexContainer>
