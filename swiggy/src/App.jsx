@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from './components/footer/Footer';
+import Advertisement from './components/advertisement/Advertisement';
 
 function App() {
   return (
     <div className="App">
-      <h3>this page is working conditions</h3>
+      <Advertisement />
       <Footer/>
     </div>
   );

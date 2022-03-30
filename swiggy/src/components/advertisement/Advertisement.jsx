@@ -1,8 +1,4 @@
-/**
- *
- * Advertisment
- *
- */
+
  import React from 'react';
  
  const Advertisement = () => {
