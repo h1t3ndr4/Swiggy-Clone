@@ -14,7 +14,7 @@ document.title = `Order food online from India's best food delivery service. Ord
 const Main = styled.div`
   width: 100%;
   height: 80px;
-  padding: 0.5% 10%;
+  padding: 0.5% 5%;
   box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
   postion: fixed;
   top: 0;

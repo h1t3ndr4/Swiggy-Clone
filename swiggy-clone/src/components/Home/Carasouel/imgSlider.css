@@ -86,8 +86,8 @@
 
   @media (min-width: 800px) and (max-width: 1200px){
     .buttons{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     .imgSlider{

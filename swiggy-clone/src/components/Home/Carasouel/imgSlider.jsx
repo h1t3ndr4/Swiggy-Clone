@@ -2,6 +2,14 @@ import "./imgSlider.css";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
+import styled from "styled-components";
+
+export const Container = styled.div`
+width: 100vw;
+margin: 0 auto;
+padding: 0 5%;
+border: 1px solid blue;
+`
 
 export const ControlledCarousel = () => {
   const [index, setIndex] = useState(0);
