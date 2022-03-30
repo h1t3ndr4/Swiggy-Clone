@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Header = styled.header`
+const Footers = styled.header`
   overflow: hidden;
   ul {
     list-style: none;
@@ -15,7 +15,7 @@ const Header = styled.header`
 
 function Footer() {
   return (
-    <Header>
+    <Footers>
       <div
         className="container-fluid"
         style={{
@@ -181,7 +181,7 @@ function Footer() {
                   <li style={{ marginTop: "20%" }}>
                     <b className="text-muted"></b>
                   </li>
-                  <li style={{ marginTop: "30%" }}>Kocho</li>
+                  <li style={{ marginTop: "30%" }}>Kochi</li>
                   <li>Kolkata</li>
                   <li>Kota</li>
                   <li>Kurnool</li>
@@ -217,7 +217,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </Header>
+    </Footers>
   );
 }
 export default Footer;
