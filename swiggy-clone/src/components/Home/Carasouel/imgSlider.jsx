@@ -13,7 +13,7 @@ export const ControlledCarousel = () => {
  const prevIcon = <img src="https://img.icons8.com/ios/50/000000/left--v1.png" className = "buttons"/>;
 
   return (
-    <Carousel nextIcon ={nextIcon} prevIcon={prevIcon} className="imgSlider" activeIndex={index} onSelect={handleSelect}>
+    <Carousel control={true} nextIcon ={nextIcon} prevIcon={prevIcon} className="imgSlider" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="sliderImgs"
