@@ -95,7 +95,7 @@ export const PastOrdersCard = () => {
                           </div>
                           <div className="pastOrdersViewDetails31">
                             Delivered on {el.date}
-                            <div>By Mohit</div>
+                            <div>By Hitendra</div>
                           </div>
                           <div className="pastOrdersViewDetails32">ON TIME</div>
                         </div>

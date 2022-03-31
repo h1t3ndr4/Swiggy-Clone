@@ -50,7 +50,7 @@ export const MyAccountsOrders = () => {
     ],
     addresses: [
       {
-        type: "",
+        type: "Home",
         body: "Pune, Maharashtra 411001, India",
       },
       {

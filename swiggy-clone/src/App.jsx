@@ -8,10 +8,10 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <h1>app</h1>
+      <h1>Navbar Here</h1>
       <Routes>
+        {/* <Route path="/help" element={<Help />}></Route> */}
         <Route path="/my-account/:comp" element={<MyAccountsOrders />} />
-        <Route path="/help" element={<Help />}></Route>
       </Routes>
       <Help />
     </div>
