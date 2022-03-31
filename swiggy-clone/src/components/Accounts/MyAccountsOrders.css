@@ -1,0 +1,572 @@
+.MyAccountsOrdersDiv {
+  padding: 0 20px;
+  background: #37718e;
+  min-height: 100vh;
+  position: relative;
+}
+.MyAccountsOrdersDivDetails {
+  padding-top: 33px;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.MyAccountsOrdersDivDetails1 {
+  color: #fff;
+  margin-bottom: 37px;
+  margin-top: 37px;
+  position: relative;
+}
+.MyAccountsOrdersDivDetailsEdit {
+  float: right;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+  border: 1px solid hsla(0, 0%, 100%, 0.6);
+  padding: 12px 20px;
+  text-transform: uppercase;
+  /* display: inline-block; */
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.MyAccountsOrdersDivDetailsName {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.MyAccountsOrdersDivDetailsContacts {
+  margin-top: 2px;
+  font-size: 16px;
+}
+.MyAccountsOrdersDivDetailsContacts span:nth-child(2) {
+  margin-left: 15px;
+}
+.MyAccountsOrdersDivDetailsContacts span:nth-child(2)::before {
+  content: ".";
+  margin-right: 15px;
+}
+.MyAccountsOrdersDivMain {
+  background: #fff;
+  contain: layout;
+  box-shadow: 0 2px 15px 0 rgb(0 0 0 / 15%);
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.MyAccountsOrdersDivMain1 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  contain: layout;
+}
+.MyAccountsOrdersDivMain1L {
+  min-width: 260px;
+  background: #edf1f7;
+}
+.MyAccountsOrdersDivMain1L ul {
+  padding: 20px 0;
+  position: sticky;
+  top: 80px;
+  list-style-type: none;
+}
+.MyAccountsOrdersDivMain1L ul li {
+  padding: 25px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+.MyAccountsOrdersDivMain1R {
+  background: #fff;
+  padding: 37px 0 0 50px;
+  position: relative;
+  min-height: 80vh;
+  flex-grow: 1;
+  /* border: 1px yellowgreen solid; */
+}
+.PastOrdersCardHeading {
+  font-size: 24px;
+  font-weight: 600;
+}
+.PastOrdersSingleCard {
+  border: 1px solid #d4d5d9;
+  padding: 30px;
+  margin: 24px 0 37px;
+}
+.PastOrdersSingleCard1 {
+  padding-bottom: 20px;
+  background-image: linear-gradient(90deg, #a9abb2 25%, hsla(0, 0%, 100%, 0) 0);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+  display: flex;
+}
+.PastOrdersSingleCardImgD {
+  background: rgba(40, 44, 63, 0.05);
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+}
+.PastOrdersSingleCardImgD img {
+  height: 100px;
+  max-width: 100%;
+}
+.PastOrdersSingleCardDetails {
+  padding-left: 18px;
+  position: relative;
+  flex-grow: 1;
+}
+.PastOrdersSingleCardDetails1 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #3d4152;
+  display: inline-block;
+  cursor: pointer;
+}
+.PastOrdersSingleCardDetails2 {
+  font-size: 13px;
+  color: #686b78;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+.PastOrdersSingleCardDetails3 {
+  margin-top: 6px;
+  color: #7e808c;
+  font-size: 12px;
+}
+.PastOrdersSingleCardDetails4 {
+  margin-top: 14px;
+  color: #fc8019;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: -0.3px;
+  display: inline-block;
+}
+.PastOrdersSingleCardDetails5 {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #686b78;
+}
+.PastOrdersSingleCard2 {
+  padding-top: 20px;
+  position: relative;
+}
+.PastOrdersSingleCard2Items {
+  font-size: 15px;
+  padding-right: 240px;
+  color: #282c3f;
+  line-height: 20px;
+}
+.PastOrdersSingleCard2Reorder,
+.PastOrdersSingleCard2Help {
+  background: #fc8019;
+  color: #fff;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid #fc8019;
+  padding: 0 15px;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+}
+.PastOrdersSingleCard2Help {
+  color: #fc8019;
+  background-color: #fff;
+}
+.PastOrdersSingleCard2Price {
+  float: right;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  color: #535665;
+  font-size: 14px;
+}
+.PastOrdersCardShowMore {
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #d4d5d9;
+  font-size: 15px;
+  font-weight: 600;
+  color: #3d4152;
+  cursor: pointer;
+}
+.SwiggyOneCardL {
+  margin-right: 16px;
+}
+.SwiggyOneCardL p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 42px;
+  color: #686b78;
+  position: relative;
+  z-index: 1;
+}
+.SwiggyOneCardLMarket {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.SwiggyOneCardLMarket:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+.SwiggyOneCardR {
+  display: flex;
+  width: 360px;
+  height: 330px;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+.FavouritesCardDiv {
+  background: #fff;
+  padding: 37px 0 0 50px;
+  position: relative;
+  min-height: 80vh;
+}
+.FavouritesCardDiv1 {
+  width: 362px;
+  text-align: center;
+  margin: 0 auto;
+}
+.FavouritesCardDiv2 {
+  font-size: 20px;
+  color: #535665;
+  font-weight: 500;
+  margin-top: 32px;
+}
+.FavouritesCardDiv3 {
+  font-size: 14px;
+  color: #7e808c;
+  margin-top: 8px;
+}
+
+/* Manage Address Starts here */
+.manageAddressCardDiv {
+  font-size: 24px;
+  font-weight: 600;
+}
+.manageAddressCardDivCards {
+  display: flex;
+  margin-top: 35px;
+  flex-wrap: wrap;
+  row-gap: 35px;
+}
+.manageAddressCardDivCard {
+  border: 1px solid #d4d5d9;
+  padding: 20px;
+  position: relative;
+  width: 360px;
+  color: #3d4152;
+  display: flex;
+}
+.manageAddressCardDivCard:nth-child(even) {
+  margin-left: 35px;
+}
+.manageAddressCardDivCardIcon {
+  padding-right: 20px;
+  padding-top: 3px;
+  font-size: 20px;
+}
+.manageAddressCardDivCardIconType {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+.manageAddressCardDivCardIconBody {
+  font-size: 13px;
+  color: #535665;
+  line-height: 20px;
+  margin-top: 2px;
+}
+.editDeleteButton {
+  color: #fc8019;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+  letter-spacing: -0.3px;
+}
+
+/* Setting Card Styling */
+
+.SettingCardDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  width: 890px;
+}
+.SettingCardDiv1,
+.SettingCardDiv2 {
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #d4d5d9;
+  color: #686b78;
+  font-size: 14px;
+  width: 92%;
+}
+.SettingCardDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.SettingCardDiv21 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282c3f;
+  margin-right: 16px;
+}
+.SettingCardDiv22 {
+  padding: 0 16px;
+}
+.SettingCardDiv23 {
+  flex: 0 0 1px;
+  margin: 0 16px;
+  width: 1px;
+  height: 60px;
+  border-right: 1px solid #d4d5d9;
+}
+.SettingCardDiv24 {
+  flex: 0.8;
+  margin-left: 8px;
+}
+
+/* Edit Profile Drawer Styling */
+.editProfileDrawer {
+  padding-left: 40px;
+  padding-right: 75px;
+  width: 477px;
+}
+.editProfileDrawer1 {
+  padding: 32px 0 20px;
+  margin-bottom: 30px;
+}
+.editProfileDrawer1 span {
+  float: left;
+  color: #3d4152;
+  cursor: pointer;
+}
+.editProfileDrawer1 div {
+  margin-left: 30px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #282c3f;
+  line-height: 1.2rem;
+}
+.editProfileDrawer2 {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d4d5d9;
+  position: relative;
+}
+.editProfileDrawer21 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+.editProfileDrawer211 {
+  font-size: 17px;
+  color: #686b78;
+  padding-right: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.editProfileDrawer212 {
+  color: #fc8019;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+  letter-spacing: -0.3px;
+  position: absolute;
+  right: 0;
+  bottom: 31px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+.pastOrdersViewDetails {
+  margin-bottom: 18px;
+  margin-top: -15px;
+}
+.pastOrdersViewDetails1,
+.pastOrdersViewDetails1a {
+  margin-bottom: 22px;
+  display: flex;
+  position: relative;
+}
+.pastOrdersViewDetails11 {
+  font-size: 25px;
+  padding-right: 20px;
+  align-self: center;
+}
+.pastOrdersViewDetails1::before {
+  content: "";
+  position: absolute;
+  height: 27px;
+  border-right: 1px dashed #a9abb2;
+  top: 33px;
+  left: 12px;
+}
+.pastOrdersViewDetails12 {
+  font-size: 17px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 325px;
+}
+.pastOrdersViewDetails13 {
+  font-size: 12px;
+  color: #7e808c;
+}
+.pastOrdersViewDetails2 {
+  border-bottom: 1px solid #e9e9eb;
+  left: 10%;
+  width: 90%;
+  margin-bottom: 18px;
+}
+.pastOrdersViewDetails3 {
+  padding-bottom: 20px;
+  display: flex;
+  position: relative;
+}
+.pastOrdersViewDetails31 {
+  font-size: 12px;
+  color: #7e808c;
+  line-height: 15px;
+}
+.pastOrdersViewDetails32 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 4px 0 10px;
+  background: #9078d5;
+  color: #fff;
+  font-size: 10px;
+  height: 15px;
+  font-weight: 400;
+}
+.pastOrdersViewDetails32::before {
+  content: "";
+  left: 0;
+  border-color: transparent;
+  border-top: 8px solid;
+  border-left: 5px solid;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  top: 0;
+}
+.pastOrdersViewDetails4 {
+  padding-top: 28px;
+  padding-bottom: 3px;
+  border-top: 1px solid #000;
+  background-image: linear-gradient(90deg, #a9abb2 25%, hsla(0, 0%, 100%, 0) 0);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+.pastOrdersViewDetails41 {
+  color: #7e808c;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+.pastOrdersViewDetails42 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.pastOrdersViewDetails421 {
+  flex-grow: 1;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.pastOrdersViewDetails422 {
+  color: #686b78;
+  font-size: 13px;
+}
+.pastOrdersViewDetails5 {
+  padding-left: 40px;
+  padding-right: 75px;
+  width: 477px;
+}
+.pastOrdersViewDetails51 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #282c3f;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.inputItemEdit {
+  height: 4.5;
+  width: 22vw;
+  border: 1px solid #d4d5d9;
+}
+.inputItemEdit input {
+  background-color: transparent;
+  line-height: normal;
+  border: none;
+  outline: none;
+  height: 4vw;
+  width: 100%;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0 1.3vw;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+.inputItemEdit input:focus {
+  padding-top: 1vw;
+}
+.inputItemEdit input:focus::placeholder {
+  position: absolute;
+  font-size: 0.8vw;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.a1123456 {
+  width: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #fc8019;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  margin-top: 10px;
+}
