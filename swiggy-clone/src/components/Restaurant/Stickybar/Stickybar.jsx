@@ -1,6 +1,7 @@
 import "./Stickybar.css";
 import { useState, useEffect } from "react";
 import styled from "styled-components";
+import IconCheckboxes from "./FavButton";
 
 const Img = styled.img`
   width: 20%;
@@ -10,7 +11,6 @@ const Img = styled.img`
 const Mid = styled.div`
   width: 40%;
   height: 80%;
-  border: 1px solid white;
 `;
 
 const Last = styled.div`
@@ -22,7 +22,6 @@ const Last = styled.div`
   align-items: center;
   flex-direction: column;
 `;
-
 
 const Span = styled.h3`
   color: white;
@@ -39,17 +38,64 @@ const OfferItems = styled.div`
 `;
 
 const Head = styled.h1`
-color: white;
-font-size: 2rem;
-font-weight: 500;
-text-align: left;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: left;
 `;
 
 const Sub = styled.h4`
-color: lightgrey;
-font-size: 0.95rem;
-text-align: left;
-`
+  color: lightgrey;
+  font-size: 0.95rem;
+  text-align: left;
+`;
+
+const Rating = styled.div`
+  width: 65%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+const Items = styled.div`
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+
+  border-right: 1px solid teal;
+`;
+
+const SearchBar = styled.div`
+  width: 100%;
+  height: 25%;
+  display: flex;
+  margin-top: 8%;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+`;
+
+const Input = styled.input`
+  width: 45%;
+  height: 94%;
+  font-size: 1rem;
+  border: none;
+  z-index: 0.25;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+`;
+
+const Tags = styled.div`
+  width: 28%;
+  height: 94%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+`;
 
 export const StickyBar = () => {
   const [value, setValue] = useState("");
@@ -73,9 +119,92 @@ export const StickyBar = () => {
           src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/s11qlenbjoub4ae3h8u7`}
         ></Img>
         <Mid>
-        <Head>Hotel Milan</Head>
-        <Sub>South Indian, Chinese</Sub>
-        <Sub>Raviwarpeth, Raviwarpeth</Sub>
+          <Head>Hotel Milan</Head>
+          <Sub>South Indian, Chinese</Sub>
+          <Sub>Raviwarpeth, Raviwarpeth</Sub>
+
+          <Rating>
+            <Items>
+              <span>
+                <img
+                  style={{ width: "14x", height: "14px", background: "white" }}
+                  src="https://img.icons8.com/ios/50/000000/star--v1.png"
+                />
+                <span style={{ color: "white", marginLeft: "5%" }}>
+                  <strong>--</strong>
+                </span>
+              </span>
+
+              <Sub style={{ fontSize: "0.75rem", marginTop: "1px" }}>
+                Too Few Ratings
+              </Sub>
+            </Items>
+
+            <Items>
+              <span style={{ color: "white", fontWeight: "600" }}>
+                330 mins
+                <span style={{ color: "white", marginLeft: "5%" }}></span>
+              </span>
+
+              <Sub style={{ fontSize: "0.75rem", marginTop: "1px" }}>
+                Delivery Time
+              </Sub>
+            </Items>
+            <Items>
+              <span style={{ color: "white", fontWeight: "600" }}>
+                ₹ 250
+                <span style={{ color: "white", marginLeft: "5%" }}></span>
+              </span>
+
+              <Sub style={{ fontSize: "0.75rem", marginTop: "1px" }}>
+                Cost for two
+              </Sub>
+            </Items>
+          </Rating>
+
+          <SearchBar>
+            <img
+              style={{
+                width: "45px",
+                height: "45px",
+                margin: "0",
+                backgroundColor: "white",
+              }}
+              src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"
+            />
+
+            <Input placeholder="Search for dishes..."></Input>
+
+            <Tags>
+              <img
+                style={{ width: "20px", height: "20px" }}
+                src="https://img.icons8.com/color/48/000000/vegetarian-mark.png"
+              />
+              <span
+                style={{
+                  color: "teal",
+                  fontWeight: "600",
+                  fontSize: "0.85rem",
+                }}
+              >
+                Pure Veg
+              </span>
+            </Tags>
+
+            <Tags>
+              <IconCheckboxes></IconCheckboxes>
+              <span
+                style={{
+                  color: "teal",
+                  fontWeight: "600",
+                  fontSize: "0.85rem",
+                }}
+              >
+                {" "}
+                Favourite
+              </span>
+            </Tags>
+          </SearchBar>
         </Mid>
         <Last>
           <OfferItems>
