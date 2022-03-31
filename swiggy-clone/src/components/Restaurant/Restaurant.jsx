@@ -1,10 +1,10 @@
 import { NavBar } from "./Navbar/Navbar";
+import { StickyBar } from "./Stickybar/Stickybar";
 import styled from "styled-components";
 
 const Address = styled.div`
   width: 90%;
   margin: auto;
-  border: 1px solid black;
   height: 30px;
   text-align: left;
   padding-left: 1%;
@@ -29,6 +29,8 @@ export const Restaurant = () => {
         <Span>/</Span>
         <Span style ={{ color: "black"}}>Hotel Milan</Span>
       </Address>
+      <StickyBar />
+      
     </>
   );
 };
