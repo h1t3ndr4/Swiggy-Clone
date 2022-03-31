@@ -1,4 +1,8 @@
-
+/**
+ *
+ * Advertisment
+ *
+ */
  import React from 'react';
  
  const Advertisement = () => {
@@ -54,14 +58,14 @@
                  </div>
                  <div className="col-lg-6">
                      <div className="row">
-                         <div className="col-lg-6">
+                         <div className="col-lg-6" >
                              <img
                                  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n"
                                  alt="image1"
                                  className="img-fluid"
                              />
                          </div>
-                         <div className="col-lg-6" style={{ position: 'absolute', bottom: 0, right: 0 }}>
+                         <div className="col-lg-6" >
                              <img
                                  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn"
                                  alt="image2"
