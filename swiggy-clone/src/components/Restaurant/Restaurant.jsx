@@ -1,7 +1,8 @@
 import { NavBar } from "./Navbar/Navbar";
 import { StickyBar } from "./Stickybar/Stickybar";
 import styled from "styled-components";
-
+import { ScrollTab } from "./ScrollTab/scrollTab";
+import { Tag } from "./FSSI/Tag";
 const Address = styled.div`
   width: 90%;
   margin: auto;
@@ -30,7 +31,8 @@ export const Restaurant = () => {
         <Span style ={{ color: "black"}}>Hotel Milan</Span>
       </Address>
       <StickyBar />
-      
+      <ScrollTab />
+      <Tag />
     </>
   );
 };
