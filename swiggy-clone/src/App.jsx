@@ -5,7 +5,6 @@ import { MyAccountsOrders } from "./components/Accounts/MyAccountsOrders";
 import { Routes, Route } from "react-router-dom";
 import React from "react";
 import Cart from "./components/cart/Cart";
-
 import PaymentOffers from "../src/components/Offers/PaymentOffers";
 
 function App() {
