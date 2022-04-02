@@ -1,0 +1,108 @@
+#cartLeftMiddleContainer{
+    text-align: left;
+    background-color: #ffffff;
+    margin-top:2vw;
+    padding: 2vw;
+} 
+#cartLeftMiddleContainer .iconContainerDiv{
+    position: absolute;
+    margin-left: -3.8vw; 
+    height:2.6vw;
+    width:2.5vw;
+    background-color: #30323a;
+    text-align: center;
+    align-items: center;
+}
+#cartLeftMiddleContainer .iconContainerDiv .icons{
+    color:white;
+    height:2vw;
+    width:2vw;
+}
+#cartLeftMiddleContainer .cartSignUpDivTitle{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #282c3f;
+}
+#cartLeftMiddleContainer .cartSignUpDivContent{
+    color: #7e808c;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 0.5vw;
+}
+#cartLeftMiddleContainer .addressCardDiv{
+width:44vw;
+display: flex;
+justify-content: space-between;
+}
+#cartLeftMiddleContainer .addressDivItems{
+    width:14vw;
+    border: 1px solid grey;
+    padding:2vw 3vw;
+}
+#cartLeftMiddleContainer .addressCardIcon{
+position: absolute;
+margin-left:-2vw;
+height:1.5vw;
+width: 1.5vw; 
+}
+#cartLeftMiddleContainer .addressCardTitle{
+    font-size:1.1vw;
+    margin-top:0;
+}
+#cartLeftMiddleContainer .addressDetailOfUser{
+    font-size: 0.85vw;
+    color: #93959f;
+    margin-bottom: 0.5vw;
+    font-weight: 300;
+    line-height: 1vw;
+    height: auto;
+    overflow: hidden;
+}
+
+#cartLeftMiddleContainer .timeRequire{
+    font-size: 0.8vw;
+    color: #282c3f;
+    font-weight: 600;
+    margin: 0.6vw 0 1vw;
+}
+#cartLeftMiddleContainer .addressButton {
+    height:2.4vw;
+    width:9vw;
+    background-color: transparent;
+    border:none;
+    padding:0.5vw 0;
+    color: #ffffff;
+    font-size: 1vw;
+    border: 1px solid #60b246;
+    background-color: #60b246;
+}
+#cartLeftMiddleContainer .addNewAddressButton{
+    background-color: transparent;
+    color: #60b246;
+}
+#cartLeftMiddleContainer .checkedCircle{
+    color: #60b246;
+    font-size:2vw;
+}
+.addressDetailOfUserSaved{
+    font-size: 0.85vw;
+    color: #93959f;
+    margin-bottom: 1.5vw;
+    font-weight: 300;
+    line-height: 1vw;
+    height: auto;
+    overflow: hidden;
+    width:30vw;
+
+}    
+#cartLeftMiddleContainer .changeButton{
+font-size:0.9vw;
+cursor: pointer;
+color: #fc8019;
+font-weight: 700;
+}
+#cartLeftMiddleContainer #deliveryAddressTopDiv{
+    display:flex;
+    justify-content: space-between;
+    width:44vw;
+}

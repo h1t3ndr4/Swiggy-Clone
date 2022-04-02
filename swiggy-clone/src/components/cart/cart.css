@@ -1,0 +1,215 @@
+#wholeCartContainer{
+    background-color:#e9ecee;
+    width:100vw;
+    margin-top:4vw;
+    padding-bottom:2vw;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+#cartContainer{
+    width:76vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top:2vw;
+} 
+#cartLeftContainer{
+    width:50vw;
+
+
+}
+
+
+#cartLeftContainer #cartLeftTopImage{
+    height:9vw;
+}
+#cartLeftContainer #cartLeftTop{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding:2vw;
+}
+#cartLeftContainer #cartLeftTopContent{
+text-align: left;
+}
+#cartLeftContainer .iconContainerDiv{
+    position: absolute;
+    margin-left: -3.8vw;
+    height:2.6vw;
+    width:2.5vw;
+    background-color: #282c3f;
+    text-align: center;
+    align-items: center;
+}
+#cartLeftContainer .iconContainerDiv .icons{
+    color:white;
+    height:1.9vw;
+    width:1.9vw;
+    margin-top:0.3vw;
+}
+#cartLeftContainer .cartSignUpDivTitle{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #282c3f;
+    margin-top: 0;
+}
+#cartLeftContainer .cartSignUpDivContent{
+    color: #7e808c;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 0.5vw;
+}
+#cartLeftContainer #cartSignUpDivButton{
+display: flex;
+justify-content: space-between;
+width:23vw;
+margin-top:2vw;
+}
+#cartLeftContainer #cartSignUpDivButton button{
+    height:3.4vw;
+    width:11vw;
+    background-color: transparent;
+    border:none;
+    padding:0.5vw 0;
+}
+#cartLeftContainer #cartSignUpDivButton button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#cartLeftContainer #cartSignUpDivButton .cartPageLoginButton{
+    color: #60b246;
+    font-size: 0.8vw;
+    border: 1px solid #60b246;
+}
+#cartLeftContainer #cartSignUpDivButton .cartPageLoginButton span{
+    font-size: 0.9vw;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+#cartLeftContainer #cartSignUpDivButton .cartPageSignupButton{
+    color:#ffffff;
+    font-size: 0.8vw;
+    background-color: #60b246;
+}
+#cartLeftContainer #cartSignUpDivButton .cartPageSignupButton span{
+    font-size: 0.9vw;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+#cartLeftTop #signupInputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    margin-top:2vw;
+    margin-bottom: 1.5vw;
+}
+
+#cartLeftTop #signupInputDiv .inputItem{
+height: 4.5;
+width: 22vw;
+border: 1px solid #d4d5d9;
+}
+#cartLeftTop #signupInputDiv .inputItem input{
+    background-color: transparent;
+    line-height: normal;
+    border: none;
+    outline: none;
+    height: 4vw;
+    width: 100%;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0 1.3vw;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+#cartLeftTop #signupInputDiv .inputItem input:focus{
+    padding-top:1vw;
+}
+#cartLeftTop #signupInputDiv .inputItem input:focus::placeholder{
+position:absolute;
+font-size:0.8vw;
+font-weight: 600;
+transition:all 0.3s;
+}
+
+#cartLeftTop #signupInputDiv .referralInputBox{
+display: none;
+}
+#cartLeftTop .continueButton{
+    width: 22vw;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    padding: 0 2rem;
+    color: #60b246;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #60b246;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    text-transform: uppercase;
+}
+#cartLeftTop .continueButton:focus{
+    outline: none;
+}
+
+#cartLeftTop #referralButtonDiv .referralButton{
+    font-size: 1vw;
+    font-weight: 500;
+    color: #5d8ed5;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+#cartLeftTop .referralButton:focus{
+    outline: none;
+}
+#cartLeftTop .termCondition{
+    font-size: 12px;
+    color: #686b78;
+    margin-top: 6px;
+    font-weight: 540;
+    width: 22vw;
+}
+#cartLeftTop .termCondition span{
+    color:#2d2e36;
+    font-weight: 600;
+}
+#cartLeftTop .cartSignUpHead{
+    display: inline-block;
+    font-weight: 400;
+    color: #7e808c;
+    font-size: 0.9vw;
+}
+#cartLeftTop .cartSignUpHead span{
+    cursor: pointer;
+    color: #fc8019;
+}
+#cartLeftTop .checkedCircle{
+color: #60b246;
+font-size:2vw; 
+}
+#authorisedUser .userDetails{
+    font-weight: 500;
+    margin-top: 2vw;
+    line-height: 1.12;
+    font-size: 1.1vw;
+    color: #282c3f;
+
+}
+
+
+#cartRightContainer{
+    width:25vw;
+    background-color: #ffffff;
+}
