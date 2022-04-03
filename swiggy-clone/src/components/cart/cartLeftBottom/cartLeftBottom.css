@@ -1,0 +1,54 @@
+#cartLeftBottomContainer{
+    text-align: left;
+    background-color: #ffffff;
+    margin-top:2vw;
+    padding: 2vw;
+}
+#cartLeftBottomContainer .iconContainerDiv{
+    position: absolute;
+    margin-left: -3.8vw;
+    height:2.6vw;
+    width:2.5vw;
+    background-color: #282c3f;
+    text-align: center;
+    align-items: center;
+}
+#cartLeftBottomContainer .iconContainerDiv .icons{
+    color:white;
+    height:2vw;
+    width:2vw;
+}
+#cartLeftBottomContainer .cartSignUpDivTitle{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #282c3f;
+}
+#cartLeftBottomContainer #paymentMethods{
+    background-color: rgb(228, 227, 241);
+    width:16vw;
+    padding:0vw 0 2vw 2vw;
+}
+#cartLeftBottomContainer .paymentMethodNames{
+font-size:1.2vw;
+margin-left: 1vw;
+font-weight: 100;
+}
+#cartLeftBottomContainer .paymentMethodIcons{
+padding: 0.8vw 0 1vw 0.1vw;
+}
+#cartLeftBottomContainer .paymentMethodUIicon{
+font-size:1.5vw;
+margin-top:1vw;
+}
+#cartLeftBottomContainer #paymentMethods .paymentMethodIcons1{
+background-color: #ffffff;
+margin-top: 1vw;
+}
+
+#cartLeftBottomContainer #paymentMethodContainer{
+    display: flex;
+    margin-top:3vw;
+}
+#cartLeftBottomContainer #paymentMethodContainer #respectivePaymentDetail{
+margin-left: 3vw;
+}

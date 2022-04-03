@@ -1,0 +1,15 @@
+.couponTermDiv{
+    font-size: .8vw;
+    color: #686b78;
+}
+.couponTermDivTitle{
+    font-weight: 500;
+}
+.couponTermList{
+   margin-top:1vw;
+}
+.couponTermLiItems{
+    position: relative;
+    margin-bottom: 0.7vw;
+    padding-left: -0.3vw;
+}

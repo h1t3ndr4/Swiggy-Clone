@@ -1,0 +1,70 @@
+.coupon_cart_container {
+  display: grid;
+  grid-template-columns: repeat(3, 22vw);
+  column-gap: 5vw;
+  row-gap: 4vw;
+  margin: 1vw auto;
+  width: 65vw;
+}
+
+.couponContainer {
+  border: 1px solid rgb(228, 226, 226);
+  border-radius: 2px;
+  padding: 0.7vw 1.7vw;
+  box-sizing: border-box;
+}
+
+.couponCode {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  background-color: #fffae6;
+  justify-content: space-between;
+  width: 8.4vw;
+  padding: 0 0.3vw;
+  box-sizing: border-box;
+}
+
+.couponCode img {
+  width: 1.3vw;
+}
+
+.couponCode p {
+  font-size: 0.7vw;
+  font-weight: bold;
+  padding-right: 0.3vw;
+}
+
+.coupon_heading {
+  color: rgb(62, 65, 82);
+  font-size: 1vw;
+  margin-bottom: 0;
+}
+
+.coupon_desc {
+  color: rgb(104, 107, 120);
+  font-size: 0.75vw;
+  margin-bottom: 1vw;
+}
+
+.coupon_moreBtn {
+  border: none;
+  background-color: transparent;
+  color: rgb(93, 142, 213);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copyCodeBtn {
+  border: 1px solid rgb(252, 128, 25);
+  width: 8vw;
+  padding: 0.6vw;
+  color: rgb(252, 128, 25);
+  font-weight: 700;
+  cursor: pointer;
+}
+/* blue-rgb(93, 142, 213);
+   heading - rgb(62, 65, 82); 1.14rem; 500
+   desc - rgb(104, 107, 120); 0.92rem;
+   copy code- rgb(252, 128, 25); 0.8vw
+*/
