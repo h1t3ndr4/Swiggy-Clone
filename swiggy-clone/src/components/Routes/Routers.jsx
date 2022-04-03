@@ -12,7 +12,7 @@ export const Routers = () => {
          <Routes>
              <Route path = {"/"} element = {<Home />} />
              <Route path = {"/restaurants"} element = {<Home />} />
-             <Route path = {"/restaurant/id"} element = {<Restaurant />} />
+             <Route path = {"/restaurant/:id"} element = {<Restaurant />} />
          </Routes>
         </>
     )

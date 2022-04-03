@@ -407,6 +407,64 @@ export default function VerticalTabs() {
           </Flex>
         </Cards>
       </TabPanel>
+      <TabPanel value={value} index={3}>
+        <Cards>
+          <Title>Veg Combo</Title>
+          <Flex>
+            <Item1>
+              <Img src="https://png.pngitem.com/pimgs/s/151-1515150_veg-icon-png-circle-transparent-png.png"></Img>
+              <br />
+              <h3
+                style={{
+                  fontWeight: "500",
+                  fontSize: "1rem",
+                  marginTop: "10px",
+                }}
+              >
+                Veg Value Meal with Gravy
+              </h3>
+              <h4
+                style={{
+                  fontWeight: "500",
+                  fontSize: "0.85rem",
+                  marginTop: "10px",
+                }}
+              >
+                ₹ 854
+              </h4>
+              <h4
+                style={{
+                  fontWeight: "500",
+                  fontSize: "0.8rem",
+                  marginTop: "10px",
+                  color: "grey",
+                  lineHeight: "16px",
+                }}
+              >
+                Khuskha quarter + Paneer butter masala (4 pcs) (200 ml) gravy +
+                Reshmi paratha (1 pc) + Gajar halwa (1 portion).
+              </h4>
+            </Item1>
+            <FlexMain>
+              <Item2 src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vk9idscokr3eiwgwgsbv"></Item2>
+              <Button
+                variant="outlined"
+                style={{
+                  borderRadius: "0",
+                  height: "35px",
+                  width: "100px",
+                  fontSize: "0.75rem",
+                  color: "orange",
+                  border: "1px solid lightgrey",
+                  fontWeight: "600",
+                }}
+              >
+                ADD
+              </Button>
+            </FlexMain>
+          </Flex>
+        </Cards>
+      </TabPanel>
       <TabPanel value={value} index={4}>
         <Cards>
           <Title>Veg Combo</Title>
