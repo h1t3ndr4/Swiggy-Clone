@@ -16,17 +16,17 @@ const client = require("twilio")(
 //     - phone number
 //     - code
 
-app.get("/", (req, res) => {
-  res.status(200).send({
-    message: "You are on Homepage",
-    info: {
-      login:
-        "Send verification code through /login . It contains two params i.e. phonenumber and channel(sms/call)",
-      verify:
-        "Verify the recieved code through /verify . It contains two params i.e. phonenumber and code",
-    },
-  });
-});
+// app.get("/", (req, res) => {
+//   res.status(200).send({
+//     message: "You are on Homepage",
+//     info: {
+//       login:
+//         "Send verification code through /login . It contains two params i.e. phonenumber and channel(sms/call)",
+//       verify:
+//         "Verify the recieved code through /verify . It contains two params i.e. phonenumber and code",
+//     },
+//   });
+// });
 
 // Login Endpoint
 app.get("/login", (req, res) => {
