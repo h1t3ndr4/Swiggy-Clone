@@ -29,23 +29,26 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 
 ## Webpages
 
+### Landing-Page
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651068104/Swiggy_landing_page_jjgkzd.jpg" alt="signUp" border="0">
+
 ### Home-Page
-<img src="https://i.ibb.co/y4X3nNb/homepage1.png" alt="homepage1" border="0">
-<img src="https://i.ibb.co/kgS4yfr/homepage2.png" alt="homepage2" border="0">
-<img src="https://i.ibb.co/zFPgF58/footer.png" alt="footer" border="0">
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651067953/homepage_swiggy_r60szu.jpg" alt="homepage1" border="0">
 
-### SignUp/LogIn-Page
-<img src="https://i.ibb.co/RHZmy88/signUp.png" alt="signUp" border="0">
 
-### All-Topics-Page
-<img src="https://i.ibb.co/8X86NCd/Alll-Content.png" alt="Alll-Content" border="0">
+### Offerss-Page
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651068048/offers_page_swiggy_em6lsu.jpg" alt="Alll-Content" border="0">
 
-### Detailed-Description-Page
-<img src="https://i.ibb.co/hCStg2D/description-Page.png" alt="description-Page" border="0">
-<img src="https://i.ibb.co/tbGw8xY/desc2.png" alt="desc2" border="0">
+### Restaurant-Display-Page
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651068090/restaurant_display_page_swiggy_slrmjy.jpg" alt="description-Page" border="0">
 
-### About-Page
-<img src="https://i.ibb.co/ZNJhGw7/About-Page.png" alt="About-Page" border="0">
+
+### Help-Page
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651068019/help_page_swiggy_qssjcc.jpg" alt="About-Page" border="0">
+
+### Cart-Page
+<img src="https://res.cloudinary.com/self-owned/image/upload/v1651067969/cart_page_swiggy_fkpyqs.jpg" alt="About-Page" border="0">
+
 
 So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers all frontend and backend development up to a certain level. We are greatly thankful to our instructor *Prabhanjan Padhye* for guiding us which helpled us to feel confident and work upon the project to complete within the specified deadlines.
 
