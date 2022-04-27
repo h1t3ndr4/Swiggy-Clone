@@ -23,9 +23,11 @@ This is our fourth Construct Week Project at Masai School's Full Stack Web Devel
 | Premkumar Hulikoppe | Home, Restaurant display pages |
 | Manjunath BV | Offers and coupon pages |
 
+## Deployment Liks
 
- 
----
+ - [Front-end](https://swiggy-bwjc9njal-premkumar-hulikoppe.vercel.app/)
+ - [Back-end](https://server-swiggy.herokuapp.com/)
+
 
 ## Webpages
 
